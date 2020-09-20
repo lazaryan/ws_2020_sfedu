@@ -1,0 +1,26 @@
+html(lang="en")
+    head
+        title WS_2020
+
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+
+        if !htmlWebpackPlugin.options.hot
+            script(crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js")
+            script(crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js")
+        
+        style.
+            !{ htmlWebpackPlugin.options.normalizeCSS }
+
+        style.
+            textarea, body {
+                font-family: 'Lato', sans-serif;
+            }
+    body
+        #app
+        
+        script.
+            window.BASE_URL = '!{ htmlWebpackPlugin.options.baseUrl }'
+
+        if !htmlWebpackPlugin.options.hot
+            script(src=htmlWebpackPlugin.options.app)
