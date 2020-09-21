@@ -44,7 +44,6 @@
 - [solidity](https://solidity.readthedocs.io/_/downloads/en/latest/pdf/)
 - [web3](https://web3js.readthedocs.io/_/downloads/en/v2.0.0-alpha.1/pdf/)
 - [express](https://expressjs.com/ru/4x/api.html)
-- [статья по разворачиванию geth](https://habr.com/ru/post/312008/)
 - [crypto-js](https://cryptojs.gitbook.io/docs/#documentation)
 - [solc](https://github.com/ethereum/solc-js/blob/master/README.md)
 
