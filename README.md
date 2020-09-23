@@ -16,15 +16,12 @@
 - geth (v 1.9.21 (19.41 MB))
 - Ganache
 - Microsoft Office
+- MongoDB
+- Robo 3t
 
 ## Плагины для VS Code
 
 - solidity
-
-## Глобальные Python пакеты
-
-- rpc
-- web3
 
 ## Необходимые JS глобальные пакеты
 
